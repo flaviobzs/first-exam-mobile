@@ -16,18 +16,29 @@ export const HeaderContent = styled.View`
 
 export const TextWelcome = styled.Text`
   color: #ffffff;
+  font-size: 1.6rem;
+  margin-top: 20px;
+`;
+
+export const ContentExpense = styled.View`
+  align-items: center;
+  margin: 40px auto;
 `;
 
 export const TextExpense = styled.Text`
   color: #ffffff;
+  font-size: 0.8rem;
 `;
 
 export const Expense = styled.Text`
   color: #ffffff;
+  font-size: 1.4rem;
+  margin-top: 3px;
 `;
 
 export const ChoicePeriod = styled.Text`
   color: #ffffff;
+  font-size: 0.8rem;
 `;
 
 export const ContentPeriod = styled.View`
@@ -35,10 +46,12 @@ export const ContentPeriod = styled.View`
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  margin: 15px auto;
 `;
 
 export const Period = styled.Text`
   color: #ffffff;
+  font-size: 0.8rem;
 `;
 
 export const ButtonsContent = styled.View`
@@ -46,38 +59,17 @@ export const ButtonsContent = styled.View`
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding: 5px;
+  padding: 0 5px;
+  margin-top: 20px;
 `;
 
-export const Button = styled.View`
+export const Button = styled.TouchableHighlight`
   background-color: #444140;
   padding: 7px;
   border-radius: 3px;
 `;
 
-export const ContentList = styled.View`
-  padding: 7px;
+export const ContentList = styled.FlatList`
+  padding: 0px 7px;
   width: 100%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-`;
-
-export const ItemList = styled.View`
-  background-color: #ffffff;
-  width: 100%;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  border-radius: 3px;
-  padding: 15px;
-  margin-top: 10px;
-`;
-
-export const ItemDescription = styled.Text`
-  color: #444140;
-`;
-
-export const ItemDate = styled.Text`
-  color: #444140;
 `;
