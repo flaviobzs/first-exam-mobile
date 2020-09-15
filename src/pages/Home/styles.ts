@@ -16,7 +16,7 @@ export const HeaderContent = styled.View`
 
 export const TextWelcome = styled.Text`
   color: #ffffff;
-  font-size: 1.6rem;
+  font-size: 32px;
   margin-top: 20px;
 `;
 
@@ -27,18 +27,18 @@ export const ContentExpense = styled.View`
 
 export const TextExpense = styled.Text`
   color: #ffffff;
-  font-size: 0.8rem;
+  font-size: 16px;
 `;
 
 export const Expense = styled.Text`
   color: #ffffff;
-  font-size: 1.4rem;
+  font-size: 24px;
   margin-top: 3px;
 `;
 
 export const ChoicePeriod = styled.Text`
   color: #ffffff;
-  font-size: 0.8rem;
+  font-size: 16px;
 `;
 
 export const ContentPeriod = styled.View`
@@ -51,7 +51,7 @@ export const ContentPeriod = styled.View`
 
 export const Period = styled.Text`
   color: #ffffff;
-  font-size: 0.8rem;
+  font-size: 12px;
 `;
 
 export const ButtonsContent = styled.View`
